@@ -93,7 +93,7 @@
 
 #pragma mark - API Method
 -(void)serviceCallForPlayList{
-    NSString* channelID=@"UCBkNpeyvBO2TdPGVC_PsPUA";
+    NSString* channelID=yCHANNELID;
     NSDictionary* userData=@{
                              
                              };

@@ -23,3 +23,5 @@
 #define yID @"id"
 #define yRESOURCEID @"resourceId"
 #define yVIDEOID @"videoId"
+#define yCHANNELID @"UCBkNpeyvBO2TdPGVC_PsPUA"
+
