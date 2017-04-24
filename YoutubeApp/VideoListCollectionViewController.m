@@ -20,7 +20,7 @@
 
 @implementation VideoListCollectionViewController
 
-static NSString * const reuseIdentifier = @"CollectionCell";
+//static NSString * const reuseIdentifier = @"CollectionCell";
 -(void)viewWillAppear:(BOOL)animated{
     
 }
@@ -32,7 +32,7 @@ static NSString * const reuseIdentifier = @"CollectionCell";
     // self.clearsSelectionOnViewWillAppear = NO;
     
     // Register cell classes
-    [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:reuseIdentifier];
+    //[self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:reuseIdentifier];
     
     // Do any additional setup after loading the view.
     NSLog(@"the count is %lu",(unsigned long)_videoArray.count);
